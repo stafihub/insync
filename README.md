@@ -1,4 +1,4 @@
-inSync by OmniFlix (for Communities)
+inSync by StaFiHub (for Communities)
 ===
 
 inSync is a collaborative interface for an entire community (or) blockchain network to:
@@ -18,31 +18,31 @@ yarn
 1. clone repository and install packages
 
   ```sh
-  git clone https://github.dev/OmniFlix/insync.git
+  git clone https://github.com/stafihub/insync
   cd insync
   yarn
   ```
 
 2. update chain config
 
-`NOTE:` below is the chain config for omniflix testnet
+`NOTE:` below is the chain config for stafihub testnet
 
 `src/config.js`
 
  ```js
 export const config = {
-    RPC_URL: 'https://rpc.flixnet.omniflix.network',
-    REST_URL: 'https://rest.flixnet.omniflix.network',
-    EXPLORER_URL: 'https://explorer.omniflix.network',
-    STAKING_URL: 'https://flix.omniflix.co/stake',
-    NETWORK_NAME: 'OmniFlix',
+    RPC_URL: 'https://test-rpc1.stafihub.io',
+    REST_URL: 'https://test-rest-rpc1.stafihub.io',
+    EXPLORER_URL: 'https://testnet-explorer.stafihub.io',
+    STAKING_URL: 'https://test-staking.stafihub.io/stake',
+    NETWORK_NAME: 'StaFiHub',
     NETWORK_TYPE: 'testnet',
-    CHAIN_ID: 'flixnet-3',
-    CHAIN_NAME: 'OmniFlix FlixNet-3',
-    COIN_DENOM: 'FLIX',
-    COIN_MINIMAL_DENOM: 'uflix',
+    CHAIN_ID: 'stafihub-testnet-1',
+    CHAIN_NAME: 'StaFiHub testnet-1',
+    COIN_DENOM: 'FIS',
+    COIN_MINIMAL_DENOM: 'ufis',
     COIN_DECIMALS: 6,
-    PREFIX: 'omniflix',
+    PREFIX: 'stafi',
     COIN_TYPE: 118,
     COINGECKO_ID: '-',
     GAS_PRICE_STEP_LOW: 0.0025,
